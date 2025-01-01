@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Brain, Stethoscope, Calendar, PieChart, Clock } from 'lucide-react';
-import Button from '../component/ui/Button';
+import Button from '../components/ui/Button';
 
 const Home: React.FC = () => {
   const features = [
@@ -83,4 +83,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Input from '../component/ui/Input';
-import Button from '../component/ui/Button';
-import Card from '../component/ui/Card';
+import Input from '../components/ui/Input';
+import Button from '../components/ui/Button';
+import Card from '../components/ui/Card';
 
 const Register: React.FC = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
