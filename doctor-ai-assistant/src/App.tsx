@@ -1,23 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/layout/Header';
-import Sidebar from './components/layout/Sidebar';
-import Footer from './components/layout/Footer';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Dashboard from './components/modules/Dashboard';
-import VoiceAssistant from './components/modules/VoiceAssistant';
-import GeneralPhysician from './components/modules/GeneralPhysician';
-import DiagnosticReport from './components/modules/DiagnosticReport';
-import MedicalPharmacy from './components/modules/MedicalPharmacy';
-import PaymentInterface from './components/modules/PaymentInterface';
-import ReportAnalysis from './components/modules/ReportAnalysis';
-import AppointmentScheduling from './components/modules/AppointmentScheduling';
-import DiseasePrediction from './components/modules/DiseasePrediction';
-import TreatmentGuidance from './components/modules/TreatmentGuidance';
-import EmergencyAssistance from './components/modules/EmergencyAssistance';
-import UserProfile from './components/modules/UserProfile';
+import Header from './components/layout/Header.tsx';
+import Sidebar from './components/layout/Sidebar.tsx';
+import Footer from './components/layout/Footer.tsx';
+import Home from './pages/Home.tsx';
+import Login from './pages/Login.tsx';
+import Register from './pages/Register.tsx';
+import Dashboard from './components/modules/Dashboard.tsx';
+import VoiceAssistant from './components/modules/VoiceAssistant.tsx';
+import GeneralPhysician from './components/modules/GeneralPhysician.tsx';
+import DiagnosticReport from './components/modules/DiagnosticReport.tsx';
+import MedicalPharmacy from './components/modules/MedicalPharmacy.tsx';
+import PaymentInterface from './components/modules/PaymentInterface.tsx';
+import ReportAnalysis from './components/modules/ReportAnalysis.tsx';
+import AppointmentScheduling from './components/modules/AppointmentScheduling.tsx';
+import DiseasePrediction from './components/modules/DiseasePrediction.tsx';
+import TreatmentGuidance from './components/modules/TreatmentGuidance.tsx';
+import EmergencyAssistance from './components/modules/EmergencyAssistance.tsx';
+import UserProfile from './components/modules/UserProfile.tsx';
 
 const App: React.FC = () => {
   return (
