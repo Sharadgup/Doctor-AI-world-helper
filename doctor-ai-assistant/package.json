@@ -9,6 +9,7 @@
     "autoprefixer": "^10.4.20",
     "cra-template-typescript": "1.2.0",
     "css-select": "^5.1.0",
+    "lucide-react": "^0.469.0",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.49",
     "react": "^19.0.0",
