@@ -3,12 +3,13 @@ import Card from '../ui/Card';
 
 const Dashboard: React.FC = () => {
   const modules = [
-    { name: 'Voice Assistant', icon: '🎤' },
-    { name: 'General Physician', icon: '👨‍⚕️' },
-    { name: 'Pharmacy', icon: '💊' },
-    { name: 'Appointments', icon: '📅' },
-    { name: 'Reports', icon: '📊' },
-    { name: 'Emergency', icon: '🚑' },
+    { name: 'Voice Assistant', icon: '🎤',path: '/VoiceAssistant' },
+    { name: 'General Physician', icon: '👨‍⚕️',path: '/GeneralPhysician' },
+    { name: 'Pharmacy', icon: '💊',path: '/MedicalPharmacy' },
+    { name:  'Payment', icon:  '$',path: '/PaymentInterface' },
+    { name: 'Appointments', icon: '📅', path: 'AppointmentScheduling'},
+    { name: 'Reports', icon: '📊', path: '/ReportAnalysis'},
+    { name: 'Emergency', icon: '🚑', path: '/EmergencyAssistance' },
   ];
 
   return (
