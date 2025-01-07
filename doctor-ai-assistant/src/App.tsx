@@ -20,7 +20,7 @@ import EmergencyAssistance from './components/modules/EmergencyAssistance';
 import UserProfile from './components/modules/UserProfile';
 import About from './pages/About';
 import Contact from './pages/Contact';
-
+import FeedbackPage from './pages/FeedbackPage';
 
 const App: React.FC = () => {
   return (
@@ -38,8 +38,8 @@ const App: React.FC = () => {
               <Route path="/voice-assistant" element={<VoiceAssistant />} />
               <Route path="/general-physician" element={<GeneralPhysician />} />
               <Route path="/diagnostic-report" element={<DiagnosticReport />} />
-              <Route path="/medical-pharmacy" element={<MedicalPharmacy />} />
-              <Route path="/payment" element={<PaymentInterface />} />
+              <Route path="/Medical-Pharmacy" element={<MedicalPharmacy />} />
+              <Route path="/Payment-Interface" element={<PaymentInterface />} />
               <Route path="/report-analysis" element={<ReportAnalysis />} />
               <Route path="/appointment" element={<AppointmentScheduling />} />
               <Route path="/disease-prediction" element={<DiseasePrediction />} />
@@ -48,6 +48,7 @@ const App: React.FC = () => {
               <Route path="/profile" element={<UserProfile />} />
               <Route path="/About" Component={About} />
               <Route path="/Contact" Component={Contact} />
+              <Route path="/FeedbackPage" Component={FeedbackPage} />
             </Routes>
           </main>
         </div>
@@ -58,5 +59,4 @@ const App: React.FC = () => {
 };
 
 export default App;
-
 
