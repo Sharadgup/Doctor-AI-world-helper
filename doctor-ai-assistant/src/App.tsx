@@ -18,6 +18,9 @@ import DiseasePrediction from './components/modules/DiseasePrediction';
 import TreatmentGuidance from './components/modules/TreatmentGuidance';
 import EmergencyAssistance from './components/modules/EmergencyAssistance';
 import UserProfile from './components/modules/UserProfile';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
 
 const App: React.FC = () => {
   return (
@@ -43,6 +46,8 @@ const App: React.FC = () => {
               <Route path="/treatment-guidance" element={<TreatmentGuidance />} />
               <Route path="/emergency" element={<EmergencyAssistance />} />
               <Route path="/profile" element={<UserProfile />} />
+              <Route path="/About" Component={About} />
+              <Route path="/Contact" Component={Contact} />
             </Routes>
           </main>
         </div>
