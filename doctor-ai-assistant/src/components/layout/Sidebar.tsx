@@ -7,7 +7,7 @@ const Sidebar: React.FC = () => {
     { name: 'Voice Assistant', path: '/voice-assistant' },
     { name: 'General Physician', path: '/general-physician' },
     { name: 'Pharmacy', path: '/medical-pharmacy' },
-    { name: 'Appointments', path: '/appointment-scheduling' },
+    { name: 'Appointments', path: '/AppointmentScheduling' },
     { name:  'Payments', path: '/payment-interface'},
     { name: 'Reports', path: '/report-analysis' },
     { name: 'Emergency', path: '/emergency' },
